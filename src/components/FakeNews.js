@@ -7,7 +7,7 @@ const FakeNews = ({ fakeNewsList }) => {
 				return (
 					<div
 						className="flex flex-col border-2 
-                md:w-2/5 m-auto h-full mt-4 md:h-60"
+                md:w-1/2 m-auto h-full mt-4 md:h-72 bg-gray-100"
 					>
 						<div className="border-2 mx-2 m-2">
 							<h3 className="font-medium">{fakeNew.title}</h3>

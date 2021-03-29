@@ -1,5 +1,6 @@
 import FakeNews from "./components/FakeNews";
 import React, { useEffect, useState } from "react";
+import Form from "./components/Form";
 
 function App() {
 	const [fakeNewsList, setFakeNewsList] = useState([
@@ -29,6 +30,7 @@ function App() {
 	return (
 		<>
 			<FakeNews fakeNewsList={fakeNewsList} />
+			<Form />
 		</>
 	);
 }
